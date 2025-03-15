@@ -18,6 +18,12 @@
 			</intent-filter>
 		</activity>
 
+		<activity android:name=".SettingsRedirectActivity" android:exported="true">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
+			</intent-filter>
+		</activity>
+
 		<service android:name=".DNDTileService"
 			android:exported="true"
 			android:label="@string/do_not_disturb"
