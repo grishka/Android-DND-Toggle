@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fitsSystemWindows="true">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="16dp">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="17sp"
+				android:lineSpacingMultiplier="1.2"
+				android:textColor="?android:textColorPrimary"
+				android:text="@string/intro"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="24dp"
+				android:layout_marginBottom="16dp"
+				android:textSize="17sp"
+				android:lineSpacingMultiplier="1.2"
+				android:textColor="?android:textColorPrimary"
+				android:text="@string/intro_permission"/>
+
+			<FrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<Button
+					android:id="@+id/settings_btn"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:text="@string/open_settings"/>
+
+				<TextView
+					android:id="@+id/permission_granted"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:textSize="15sp"
+					android:textColor="#00BF2E"
+					android:drawableStart="@drawable/ic_check_20px"
+					android:drawableTint="#00BF2E"
+					android:drawablePadding="4dp"
+					android:text="@string/permission_granted"/>
+			</FrameLayout>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="24dp"
+				android:layout_marginBottom="16dp"
+				android:textSize="17sp"
+				android:lineSpacingMultiplier="1.2"
+				android:textColor="?android:textColorPrimary"
+				android:text="@string/intro_add_tile"/>
+
+			<FrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<Button
+					android:id="@+id/add_tile_btn"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:text="@string/add_tile"/>
+
+				<TextView
+					android:id="@+id/tile_added"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:textSize="15sp"
+					android:textColor="#00BF2E"
+					android:drawableStart="@drawable/ic_check_20px"
+					android:drawableTint="#00BF2E"
+					android:drawablePadding="4dp"
+					android:text="@string/tile_added"/>
+			</FrameLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</FrameLayout>
