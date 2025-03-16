@@ -7,6 +7,6 @@
 	<string name="intro_add_tile">2. Add the tile to your quick settings:</string>
 	<string name="add_tile">Add tile</string>
 	<string name="tile_added">Tile added</string>
-	<string name="do_not_disturb">Do not disturb</string>
+	<string name="do_not_disturb">Do Not Disturb</string>
 	<string name="tile_no_permission">No permission</string>
 </resources>
