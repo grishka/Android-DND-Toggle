@@ -1,12 +1,12 @@
 <resources>
 	<string name="app_name">DND Toggle</string>
-	<string name="intro">This tiny app adds a quick settings tile to allow you to toggle the \"Do not disturb\" mode with just one tap, just like you were able to for more than a decade before Google decided to do the stupid thing in Android 15 QPR2 with its \"Modes\" feature.</string>
+	<string name="intro">This tiny app adds a quick settings tile to allow you to toggle the \"Do Not Disturb\" mode with just one tap, just like you were able to for more than a decade before Google decided to do the stupid thing in Android 15 QPR2 with its \"Modes\" feature.</string>
 	<string name="intro_permission">1. Grant the app the permission to manage your notifications policy:</string>
 	<string name="open_settings">Open settings</string>
 	<string name="permission_granted">Permission granted</string>
 	<string name="intro_add_tile">2. Add the tile to your quick settings:</string>
 	<string name="add_tile">Add tile</string>
 	<string name="tile_added">Tile added</string>
-	<string name="do_not_disturb">Do not disturb</string>
+	<string name="do_not_disturb">Do Not Disturb</string>
 	<string name="tile_no_permission">No permission</string>
 </resources>
