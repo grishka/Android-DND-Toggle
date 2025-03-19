@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DND Toggle</string>
+    <string name="intro">Diese winzige App fügt eine Kachel für die Schnelleinstellungen hinzu, mit der Sie den „Bitte nicht stören“-Modus mit nur einem Fingertipp umschalten können.</string>
+    <string name="intro_permission">1. Erteilen Sie der App die Erlaubnis, Ihre Benachrichtigungsrichtlinie zu verwalten:</string>
+    <string name="open_settings">Einstellungen öffnen</string>
+    <string name="permission_granted">Berechtigung zugelassen</string>
+    <string name="intro_add_tile">2. Fügen Sie die Kachel zu Ihren Schnelleinstellungen hinzu:</string>
+    <string name="add_tile">Kachel hinzufügen</string>
+    <string name="do_not_disturb">Bitte nicht stören</string>
+    <string name="tile_no_permission">Keine Berechtigung</string>
+    <string name="tile_added">Kachel hinzugefügt</string>
+</resources>
